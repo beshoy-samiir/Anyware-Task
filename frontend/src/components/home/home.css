@@ -1,0 +1,15 @@
+.login {
+    background-color: rgb(2, 30, 38);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login button {
+    width: 200px;
+    height: 75px;
+    color: white;
+    font: 30px bold;
+}

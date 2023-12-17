@@ -1,0 +1,106 @@
+.leftSide {
+    background-color: rgb(80, 140, 160);
+    height: 100%;
+    position: fixed;
+    width: 250px;
+    overflow-y: auto;
+}
+
+.icons {
+    padding: 30px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+}
+
+.icons i {
+    width: 15px;
+}
+
+.icons:hover {
+    background-color: white;
+    color: rgb(1, 9, 12);
+}
+
+.topRightSide {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 300px);
+}
+
+.text {
+    color: black;
+    font: bold
+}
+
+nav {
+    background-color: rgb(48, 94, 107);
+
+}
+
+nav div h3 {
+    margin-left: 10px;
+}
+
+nav Link {
+    margin-right: 10px;
+}
+
+nav i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(92, 145, 161);
+}
+
+.btn {
+    margin: 1px;
+}
+
+
+@media (max-width: 768px) {
+    .leftSide {
+        height: 100%;
+    }
+
+    .leftSide p {
+        padding-left: 0;
+    }
+
+    .topRightSide,
+    nav {
+        padding-left: 10px;
+        padding-right: 10PX;
+    }
+
+    .icons i {
+        padding-left: 20px;
+        width: 40px;
+    }
+
+    .nav-link {
+        padding-left: 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .btn-outline-danger {
+        margin-top: 5px;
+
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .leftSide h1 {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+
+    input {
+        margin-left: auto;
+    }
+}
